@@ -190,8 +190,9 @@ public class Zip {
 
 		// check the specified directories or files exist
 		for path in paths {
-			let thisCheckFile = Dir(path)
-			guard thisCheckFile.exists == true else {
+			let thisCheckDir = Dir(path)
+			let thisCheckFile = File(path)
+			guard thisCheckDir.exists == true || thisCheckFile.exists == true else {
 				return ZipStatus.FileNotFound
 			}
 		}

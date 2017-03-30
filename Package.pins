@@ -1,0 +1,18 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "PerfectLib",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/PerfectLib.git",
+      "version": "2.0.9"
+    },
+    {
+      "package": "minizip",
+      "reason": null,
+      "repositoryURL": "https://github.com/iamjono/minizip.git",
+      "version": "0.1.1"
+    }
+  ],
+  "version": 1
+}
